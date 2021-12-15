@@ -1,0 +1,96 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main {
+    margin-left: 50px;
+    width: 50%;
+    margin: 0 auto;
+    background-color: peru;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+
+main article {
+    display: inline-block;
+    width: 30%;
+    top: 20px 5px;
+    text-shadow: 2px 1px;
+
+}
+
+img {
+    width: 100%;
+    
+}
+
+nav {
+    text-align: center;
+    background-color: orange ;
+    font-size: 1.5em;
+    
+}
+
+nav a {
+    text-decoration: none;
+
+}
+
+a:hover{
+    background-color: palegreen;
+}
+
+article img {
+    opacity: 0.8;
+    width: 30%;
+    margin: 20px 5px;
+}
+
+main .stories {
+    width: 80%;
+    text-align: center;
+}
+
+textarea {
+    height: 200px;
+
+}
+
+label {
+    display: block;
+    border: 10px 5px;
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    visibility: hidden;
+}
+
+textarea, select, input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid grey;
+}
+
+input[type="submit"] {
+ background-color: green;
+ color: white;
+ padding: 20px;
+ border-radius: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: darkgreen;
+    cursor: pointer;
+}
